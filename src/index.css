@@ -1,0 +1,34 @@
+@import 'tailwindcss';
+
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Cinzel:wght@400;700;900&display=swap");
+
+/* Base styles */
+@layer base {
+  html {
+    font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+  }
+  h5,h4,h3,h2,h1{
+    font-family: 'Cinzel';
+  }
+}
+
+
+.whole-bg{
+  background-color: rgba(150, 196, 188, 0.345);
+}
+
+
+.bg-brown-200{
+  color: rgb(186, 172, 172);
+  font-weight: 450;
+}
+
+.bg-brown-200:hover{
+  color: #5a1b2c
+}
+
+.bg-brown{
+  color: #5a1b2c;
+  font-weight: 450;
+}
