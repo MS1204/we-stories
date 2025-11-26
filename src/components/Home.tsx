@@ -35,7 +35,7 @@ const Home = () => {
                                 <button className="px-4 mb-4 mt-3 py-1 rounded-full border bg-amber-950 border-amber-950 text-[rgba(158,154,47,0.66)]">Plan Your Dream Wedding <span className="ml-2 text-lg"> ›</span></button>
                             </div>
                             <div className="pt-26">
-                                <img src="/images/wp2599322.png" alt="no image found" className="w-full h-auto object-cover"/>
+                                <img src="public/images/wp2599322.png" alt="no image found" className="w-full h-auto object-cover"/>
                             </div>
 
                             <div className="pt-35">
@@ -44,7 +44,7 @@ const Home = () => {
                                         {/* Left image */}
                                         <div className="">
                                         <img
-                                            src="/images/wedding-image.jpg"
+                                            src="public/images/wedding-image.jpg"
                                             alt="Event Scene"
                                             className="w-180 h-60 rounded-s-4xl"
                                         />
@@ -58,7 +58,7 @@ const Home = () => {
                                         {/* Right image */}
                                         <div className="">
                                         <img
-                                            src="/public/images/AS.jpeg"
+                                            src="public/images/AS.jpeg"
                                             alt="Flower Wall"
                                             className="w-220 h-120 rounded-e-4xl rounded-bl-4xl object-cover"
                                         />
